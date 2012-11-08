@@ -1,8 +1,5 @@
-    start.lua
-    8.11.2012 headchant
-    
-    Instructions
-    ============
-    pipe into /dev/dsp or something like that
-    or on OSX:
-        luajit bit.lua | sox -traw -r44100 -b16 -u - -tcoreaudio
+Instructions
+============
+pipe into /dev/dsp or something like that
+or on OSX:
+    luajit bit.lua | sox -traw -r44100 -b16 -u - -tcoreaudio
